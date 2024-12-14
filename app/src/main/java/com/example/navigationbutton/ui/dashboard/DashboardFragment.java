@@ -28,6 +28,7 @@ public class DashboardFragment extends Fragment {
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
+    //comment
 
     @Override
     public void onDestroyView() {
